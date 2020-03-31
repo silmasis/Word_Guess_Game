@@ -4,36 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Word Game!</title>
+    <title>Hangman</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
-<body>    
-    <div id="wrapper">
-      <h1>WORD GUESS</h1>
-      <h3>Jazz Edition</h3>
+<body>
+    <div class ="container">
+        <div class="container2">
+            <div id=header>
+                <h1>Broadway Hangman</h1>
+            </div>
+            <h2>Press any key to get started.</h2>
+            <br>
+            <div id="wordlocation"></div>
+            <br>
+            <p>Wins: <span id="wins">0</span></p>
+            <p>Losses: <span id="losses">0</span></p>
+            <p>Guesses Remaining: <span id="guessesrem"> 6 </span></p>
+            <p>Letters already Guessed: <span id="guessedletters"> </span> </p>
+        </div>    
     </div>
 
-    <div id="container">
-      <div id="game-section">
-        <p>Press any key to get started!</p>
-        <div>
-          <h3 class="section-title">Wins</h3>
-          <div id="wins"></div>
-        </div>
-        <div id="current-word-section">
-          <h3 class="section-title">Current Word</h3>
-          <div id="current-word"></div>
-        </div>
-        <div id="guesses-remaining-section">
-          <h3 class="section-title">Number of Guesses Remaining</h3>
-          <div id="guesses-remaining"></div>
-        </div>
-        <div id="guessed-letters-section">
-          <h3 class="section-title">Letters Already Guessed</h3>
-          <div id="guessed-letters"></div>
-        </div>
-      </div>
-    </div>
-
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-  </body>
+    <script src="./javascript/game.js"></script>
+</body>
 </html>
