@@ -1,4 +1,4 @@
-var word = ["The Seven Samurai", "Rocky", "Slumdog Millionaire", "The Lord of the Rings", "12 Angry Men", "The Bridge on the River Kwai", "Blazing Saddles", "Gladiator", "Monty Python and The Holy Grail", "The Lion King", "Chicago", "Beauty and the Beast", "West Side Story", "The Dark Knight", "Taxi Driver", "The Big Lebowski", "Star Wars", "Jurassic Park", "Titanic", "The Matrix", "Alien", "A Clockwork Orange", "Blade Runner", "Jaws", "Chinatown", "Raiders of the Lost Ark","Casablanca","The Godfather"];
+var word = ["the seven samurai", "rocky", "slumdog millionaire", "the lord of the rings", "the bridge on the river kwai", "blazing saddles", "gladiator", "monty python and the holy grail", "the lion king", "chicago", "beauty and the beast", "west side story", "the dark knight", "taxi driver", "the big lebowski", "star wars", "jurassic park", "titanic", "the matrix", "alien", "a clockwork orange", "blade runner", "jaws", "chinatown", "raiders of the lost ark","casablanca","the godfather"];
 var guesses = document.getElementById("guessedletters");
 guesses = [];
 var guessesrem = document.getElementById("guessesrem");
@@ -63,7 +63,7 @@ document.onkeyup = function(event) {
 
                     //win game if word is complete
                         if (rewriteword == compword) {
-                            alert("And the Tony goes to " + compword + "!")
+                            alert("And the Oscar goes to " + compword + "!")
                             winsnumber++;
                             startingguess = 6;
                             guesses = [];

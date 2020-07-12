@@ -1,19 +1,29 @@
 body {
-    margin: 0;
-    padding: 0;
     text-align: center;
+    background-color: black;
+  }
+
+  .jumbotron {
     background-image: url('../images/background.jpg');
-    background-attachment: fixed;
-    background-position: center;
+    background-color: black;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: top;
+    background-size: contain;
+    height: 400px;
+
+    text-align: center;
     font-family: 'chalk';
     color: white;
   }
 
+  #wordlocation {
+      padding-top: 80px;
+      font-size: 32px;
+  }
+
   @font-face {
     font-family: 'chalk';
-    src: url('font/CfBlackboardPersonalRegular-AKPg.ttf')format('truetype');
+    src: url('font/DK\ Cool\ Crayon.ttf')format('truetype');
     font-style: normal;
     font-weight: 100;
   }
