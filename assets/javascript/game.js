@@ -1,4 +1,4 @@
-var word = ["miss saigon", "les mis", "cabaret", "a bronx tale", "anastasia", "the addams family", "dear evan hansen", "hamilton", "annie", "the king and i", "chicago", "beauty and the beast", "the book of mormon", "little shop of horrors", "the phantom of the opera", "cats", "once on this island", "sweeney todd", "hedwig and the angry inch", "matilda the musical", "newsies", "pippin", "the pirates of penzance", "avenue q", "school of rock", "something rotten"];
+var word = ["The Seven Samurai", "Rocky", "Slumdog Millionaire", "The Lord of the Rings", "12 Angry Men", "The Bridge on the River Kwai", "Blazing Saddles", "Gladiator", "Monty Python and The Holy Grail", "The Lion King", "Chicago", "Beauty and the Beast", "West Side Story", "The Dark Knight", "Taxi Driver", "The Big Lebowski", "Star Wars", "Jurassic Park", "Titanic", "The Matrix", "Alien", "A Clockwork Orange", "Blade Runner", "Jaws", "Chinatown", "Raiders of the Lost Ark","Casablanca","The Godfather"];
 var guesses = document.getElementById("guessedletters");
 guesses = [];
 var guessesrem = document.getElementById("guessesrem");
